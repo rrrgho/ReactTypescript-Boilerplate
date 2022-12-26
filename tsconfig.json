@@ -1,26 +1,14 @@
 {
   "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "outDir": "./dist/",
+    "noImplicitAny": true,
     "module": "esnext",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
     "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "allowSyntheticDefaultImports": true,
   },
-  "include": [
-    "src"
-  ]
+  "include": ["rtl.setup.js", "./src/**/*.ts", "./src/**/*.tsx", "./test/**/*.ts", ".eslintrc.js", "./*.js"],
+  "exclude": ["node_modules", "build", "config", "doc", "env", "public", "scripts", "./*.json","./src/**/*.css"]
 }
