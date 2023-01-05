@@ -57,15 +57,6 @@ module.exports = {
         test: /\.(png|jpe?g|gif|svg)/,
         type: "asset/resource",
       },
-      // {
-      //     test: /\.(png|jpe?g|gif)$/i,
-      //     dependency: { not: ['url'] },
-      //     use: ['file-loader','url-loader']
-      // },
-      // {
-      //     test: /\.svg$/,
-      //     loader: 'svg-inline-loader'
-      // }
     ],
   },
   plugins: [

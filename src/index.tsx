@@ -2,15 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./style.css";
 import reportWebVitals from "./reportWebVitals";
+import Button from "./components/atoms/Button";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <h1 className="text-3xl font-bold underline bg-amber-400">
-      Hello world rian!
-    </h1>
+    <Button status="success" text="Save Task" />
   </React.StrictMode>
 );
 

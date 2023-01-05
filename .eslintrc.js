@@ -5,5 +5,8 @@ module.exports = {
   },
   rules: {
     "@typescript-eslint/no-var-requires": 0,
+    "react/function-component-definition": 0,
+    "react/button-has-type": 0,
+    "no-nested-ternary": 0,
   },
 };
